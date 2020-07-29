@@ -1,0 +1,33 @@
+header{
+
+  nav{
+    height: 100px;
+    .logo{
+      background-color: blue;
+      height: 100%;
+
+    }
+    .links{
+      background-color: purple;
+      height: 100%;
+      ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        li{
+          width: calc(100% / 5);
+        }
+      }
+
+    }
+    .cta_apply{
+      background-color: salmon;
+      height: 100%;
+
+    }
+
+
+  }
+
+
+}
