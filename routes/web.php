@@ -27,5 +27,11 @@ Route::get('/dopo_corso', function () {
 
 
 Route::get('/frequent_questions', function () {
-  return view('partials/frequent_questions');
+   $faqs = config('faqs');
+
+  return view('partials/frequent_questions', 
+  [
+  'faq_list' => $faqs,
+  ]);
+
 })->name('frequent_questions');

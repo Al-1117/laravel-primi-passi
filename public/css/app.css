@@ -1,3 +1,7 @@
+body {
+  font-family: "Rubik", sans-serif;
+}
+
 header {
   height: 100px;
 }
@@ -17,7 +21,16 @@ header nav .links ul li {
 }
 
 main {
-  padding: 250px 0;
+  padding: 50px 0;
+}
+
+.faq_list li {
+  margin: 20px 0;
+}
+
+.faq_list li h3 {
+  color: #1b3c59;
+  padding: 7px 0;
 }
 
 footer {

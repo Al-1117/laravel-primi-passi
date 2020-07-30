@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="{{ asset('css/12bool_def.css') }}">
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
     <title>@yield('title')</title>
   </head>
   <body>
