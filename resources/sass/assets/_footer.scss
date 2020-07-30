@@ -1,0 +1,16 @@
+footer{
+  color: $secondary_white;
+  background-color:$primary_blue;
+
+  .top_footer{
+    padding: 50px 20px 10px;
+
+    @include display_flex;
+    justify-content: space-between;
+    border-bottom: 1px, solid $secondary_white;
+    .left_footer{
+
+    }
+  }
+
+}

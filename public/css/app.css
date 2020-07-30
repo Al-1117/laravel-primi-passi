@@ -1,29 +1,30 @@
-header nav {
+header {
   height: 100px;
 }
 
-header nav .logo {
-  background-color: blue;
-  height: 100%;
-}
-
-header nav .links {
-  background-color: purple;
-  height: 100%;
+header nav {
+  display: flex;
+  justify-content: center;
 }
 
 header nav .links ul {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-evenly;
 }
 
 header nav .links ul li {
-  width: calc(100% / 5);
+  align-self: center;
 }
 
-header nav .cta_apply {
-  background-color: salmon;
-  height: 100%;
+footer {
+  color: #ffff;
+  background-color: #1b3c59;
+}
+
+footer .top_footer {
+  padding: 50px 20px 10px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px, solid #ffff;
 }
 

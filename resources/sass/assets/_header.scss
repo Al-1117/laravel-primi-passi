@@ -1,33 +1,16 @@
 header{
-
+  height: 100px;
   nav{
-    height: 100px;
-    .logo{
-      background-color: blue;
-      height: 100%;
-
-    }
+    @include display_flex;
+    justify-content: center;
     .links{
-      background-color: purple;
-      height: 100%;
       ul{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include display_flex;
+        justify-content:space-evenly;
         li{
-          width: calc(100% / 5);
+          align-self: center;
         }
       }
-
     }
-    .cta_apply{
-      background-color: salmon;
-      height: 100%;
-
-    }
-
-
   }
-
-
 }
