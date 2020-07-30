@@ -13,7 +13,7 @@
       {{-- Right side --}}
       <ul class="right_footer col-lg-2">
         <li>Lezione gratuita</li>
-        <li>Domande frequenti</li>
+        <li><a href="{{route('frequent_questions')}}">Domande Frequenti</a></li>
         <li>Privacy Policy</li>
         <li>Lavora con noi</li>
       </ul>

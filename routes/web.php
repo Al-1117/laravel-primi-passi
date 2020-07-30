@@ -24,3 +24,8 @@ Route::get('/corso', function () {
 Route::get('/dopo_corso', function () {
   return view('partials/dopo_corso');
 })->name('dopo_corso');
+
+
+Route::get('/frequent_questions', function () {
+  return view('partials/frequent_questions');
+})->name('frequent_questions');

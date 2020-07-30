@@ -8,7 +8,7 @@
       <ul>
         <li><a href="{{route('home')}}">home</a></li>
         <li><a href="{{route('corso')}}">corso</a></li>
-        <li> <a href="{{route('dopo_corso')}}">Dopo il corso</a> </li>
+        <li> <a href="{{route('dopo_corso')}}">dopo il corso</a> </li>
         <li>lezione gratuita</li>
         <li>assumi i nostri studenti</li>
       </ul>

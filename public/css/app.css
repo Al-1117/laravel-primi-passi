@@ -16,6 +16,10 @@ header nav .links ul li {
   align-self: center;
 }
 
+main {
+  padding: 250px 0;
+}
+
 footer {
   color: #ffff;
   background-color: #1b3c59;

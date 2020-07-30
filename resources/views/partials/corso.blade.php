@@ -1,2 +1,10 @@
 @extends('layouts/base')
-CORSO
+
+@section('title')
+Corso
+@endsection
+
+
+@section('main')
+<h2>main corso</h2>
+@endsection
