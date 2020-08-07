@@ -1,0 +1,21 @@
+#numbers{
+  background-color: $primary_blue;
+  color: $secondary_white;
+  .numbers_wrapper{
+    @include display_flex;
+    padding: 50px 0;
+    .single_num{
+      padding: 20px 40px;
+      text-align: center;
+      h2{
+        font-size: 3rem;
+        padding-bottom: 10px;
+      }
+      p{
+        font-size: 1.2rem;
+        line-height: 2rem;
+      }
+
+    }
+  }
+}

@@ -27,11 +27,13 @@ Route::get('/dopo_corso', function () {
 
 
 Route::get('/frequent_questions', function () {
-   $faqs = config('faqs');
+  $left_faqs = config('faqs.left_faqs');
+  $right_faqs = config('faqs.right_faqs');
 
-  return view('partials/frequent_questions', 
+  return view('partials/frequent_questions',
   [
-  'faq_list' => $faqs,
+  'left_faqs' => $left_faqs,
+  'right_faqs' => $right_faqs
   ]);
 
 })->name('frequent_questions');

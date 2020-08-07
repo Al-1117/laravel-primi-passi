@@ -1,0 +1,23 @@
+#partners{
+  .partners_wrapper{
+    p{
+      font-size: 1.3rem;
+      color: grey;
+      margin-top: 7px;
+    }
+    .logos_container{
+      @include display_flex;
+      flex-wrap: wrap;
+      ul{
+        @include display_flex;
+
+        li{
+          padding: 30px;
+        }
+      }
+      .second_row{
+        justify-content: center;
+      }
+    }
+  }
+}

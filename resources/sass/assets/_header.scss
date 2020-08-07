@@ -1,14 +1,64 @@
 header{
+  // Header general
   height: 100px;
+  padding: 30px 0;
+  color: $primary_blue;
+
+  // Navigation
   nav{
     @include display_flex;
     justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background-color: $secondary_white;
+    min-height: 100px;
+
+    // Logo
+    .logo{
+      padding-left: 10px;
+      img{
+        width: 90%;
+      }
+    }
+
+    // Links in navigation
     .links{
       ul{
         @include display_flex;
         justify-content:space-evenly;
         li{
           align-self: center;
+          text-transform: uppercase;
+          padding-bottom: 8px;
+          // On hover
+          &:hover{
+            border-bottom: 2px solid $tertiary_green;
+          }
+        }
+      }
+    }
+
+    // Call to action button
+    .cta_apply{
+      button{
+        font-size: 17px;
+        height: 40px;
+        width: 180px;
+        border-radius: 5px;
+        text-transform: uppercase;
+        color: $secondary_white;
+        background-color: $tertiary_green;
+        font-weight: bold;
+        border: none;
+        cursor: pointer;
+        transition: 0.3s;
+        // On hover
+        &:hover{
+          opacity: 80%;
         }
       }
     }
